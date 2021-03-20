@@ -1,7 +1,3 @@
-|Python package|
-.. |Python package| image:: https://github.com/sourjp/renamer/actions/workflows/python-package.yml/badge.svg
-   :target: https://github.com/sourjp/renamer/actions/workflows/python-package.yml
-
 #######
 Renamer
 #######
