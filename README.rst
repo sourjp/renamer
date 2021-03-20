@@ -1,3 +1,5 @@
+[![Python package](https://github.com/sourjp/renamer/actions/workflows/python-package.yml/badge.svg)](https://github.com/sourjp/renamer/actions/workflows/python-package.yml)
+
 #######
 Renamer
 #######
