@@ -1,38 +1,44 @@
-# Renamer
+#######
+Renamer
+#######
 
 Rename files to countable number.
 
-```sh
-% python3 -m renamer -s tests/sample
-Candidate to rename files (before ---> after).
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-0: tests/sample/a.txt ---> tests/sample/001.txt
-1: tests/sample/b.txt ---> tests/sample/002.txt
-Rename files? [y/N]: y
-Done.
-```
+.. code-block:: python3
 
-# Usage
+  % python3 -m renamer -s tests/sample
+  Candidate to rename files (before ---> after).
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  0: tests/sample/a.txt ---> tests/sample/001.txt
+  1: tests/sample/b.txt ---> tests/sample/002.txt
+  Rename files? [y/N]: y
+  Done.
+
+Usage
+#####
 
 You have options.
 
-```sh
-% python3 -m renamer -h
-usage: cli.py [-h] [-s SRC_DIR] [-i INDEX] [-r]
+.. code-block:: python3
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -s SRC_DIR, --src SRC_DIR
-                        src directory to search files.
-  -i INDEX, --index INDEX
-                        start number to count (e.g. 001, 002, ...)
-  -r, --recursive       search src directories recursively.
-```
+  % python3 -m renamer -h
+  usage: cli.py [-h] [-s SRC_DIR] [-i INDEX] [-r]
 
-# Author
+  optional arguments:
+    -h, --help            show this help message and exit
+    -s SRC_DIR, --src SRC_DIR
+                          src directory to search files.
+    -i INDEX, --index INDEX
+                          start number to count (e.g. 001, 002, ...)
+    -r, --recursive       search src directories recursively.
+
+
+Author
+######
 
 sourjp
 
-# License
+License
+#######
 
 MIT
